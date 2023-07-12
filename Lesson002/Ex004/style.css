@@ -1,0 +1,14 @@
+h2{
+    color: darkgoldenrod !important;
+}
+
+h2{
+    color: darkblue;
+}
+.CoolClass{
+    font-weight: 900;
+    background-color: burlywood;
+    font-style: italic;
+    color: hotpink;
+    text-align: center;
+}

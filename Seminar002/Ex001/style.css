@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    background-color: darkkhaki;
+    background-position: 16%;
+}
+
+.ref{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+img{
+    background: white;
+    
+}
+
+h1{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.LLL{
+    color: coral;
+    font-style: normal;
+}
