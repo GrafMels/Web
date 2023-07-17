@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding-top: 7.9%;
+    padding-bottom: 7.9%;
+    background: #2F2E41;
+}
+
+.headerRef{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.top{
+    background: rgba(242, 242, 242, 0.34);
+    padding-top: 84px;
+}
+
+.topTitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    color: #6C63FF;
+    mix-blend-mode: normal;
+}
+
+.aboutTitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: #6C63FF;
+    mix-blend-mode: normal;
+}
+
+.aboutContent{
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
