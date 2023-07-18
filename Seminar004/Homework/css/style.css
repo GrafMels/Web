@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 40px 40px 84px 374px 259px 50px 96px;
+    justify-items: center;
+}
+
+.header{
+    grid-row: 2 / span 1;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.orange_text{
+    color: #F25822;
+}
+
+.icon{
+    width: 9px;
+}
+
+
+.main{
+    grid-row: 4 / span 1;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 522px 41px 545px;
+    grid-template-rows: 222px 17px 48px 37px 50px;
+}
+
+.big_text{
+    grid-column: 1 / 2;
+    grid-row: 1 / span 1;
+
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.small_text{
+    grid-column: 1 / 2;
+    grid-row: 3 / span 1;
+
+    color: #888;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_field{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    grid-column: 1 / 2;
+    grid-row: 5 / span 1;
+
+    color: #AAA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_start{
+    display: flex;
+    background-color: #F25822;
+    width: 140px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_img{
+    grid-column: 3 / 4;
+    grid-row: 1 / span 6;
+    width: 550px;
+}
+
+.logo{
+    grid-row: 6 / span 1;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}

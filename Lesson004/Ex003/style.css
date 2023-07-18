@@ -1,0 +1,10 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.center{
+    padding-left: calc(50% - 100px);
+    padding-right: calc(50% - 100px);
+}
+/* Центрирование */
+
