@@ -10,8 +10,16 @@
     <link rel="stylesheet" href="css/style.css">  
 </head>
 <body>
+    <script>
+        function validate(obj, lowval, hival) {
+            if ((obj.value < lowval) || (obj.value > hival))
+              alert("Invalid Value!");
+          }
+    </script>
     <div class="header">
         <img src="img/Logo.svg" alt="logo">
+        <input type="text" name="age" size="3"
+        onChange="validate(this, 18, 99)">
         <div class="menu">
             <a class="orange_text" href="#">
                 Home
@@ -57,7 +65,7 @@
     </div>
 
     <div class="logo">
-        <a href="#">
+        <a href="https://livacosmetics.ru/">
             <img src="img/1.svg" alt="logo">
         </a>
         <a href="#">
