@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    max-width: 100vw;
+    min-height: 100vh;
+    border: 1px solid #000; 
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 33.33%;
+    height: 50vh;
+    border: 1px solid #000;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+
+@media(max-width: 1024px){
+    /* Стилт для планшета */
+    h1{
+        font-size: 24px;
+        background-color: aqua;
+    }
+    .item{
+        background-color: orangered;
+    }
+}
