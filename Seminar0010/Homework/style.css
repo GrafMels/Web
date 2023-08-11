@@ -47,7 +47,6 @@ body{
     position: relative;
     display: inline-block;
     cursor: pointer;
-    animation-timing-function: 4s ease;
 }
 
 .popup .popuptext {

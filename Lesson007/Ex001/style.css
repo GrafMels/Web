@@ -1,0 +1,17 @@
+/* исправление через !important*/
+.text-color{
+    color: red !important;
+    
+}
+
+/* Исправление через добавление своего стиля для того что бы не ломать стоковые значения*/
+.background{
+    background-color: #898989 !important;
+
+}
+
+.center{
+    padding-left: calc(50% - 300px);
+    padding-right: calc(50% - 300px);
+    
+}
