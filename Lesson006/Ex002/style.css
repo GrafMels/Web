@@ -1,0 +1,114 @@
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* первый по классу при наведении*/
+.my_block:first-child:hover{
+    background-color: azure;
+}
+
+/* последний по типу при нажимании*/
+a:last-of-type:active{
+    background-color: aquamarine;
+    border-right: 1px solid orange;
+    margin-right: 20px;
+}
+
+/* класс при нажимании */
+.my_block:active{
+    background-color: orange;
+}
+
+
+/* Добавляем контент после блока */
+.my_block::after{
+    content: "Привет";
+}
+
+/* Должно окрашивать часть после блока!!! не работает!!!! */
+.my_block::after:active {
+    background-color: rgb(255, 140, 0);
+}
+
+/* Добавляем контент после блока только при наведении*/
+.my_block:hover::after{
+    content: "<<<";
+}
+
+.my_block:hover::before{
+    content: ">>>";
+}
+
+.my_block:hover .child{
+    background-color: aquamarine;
+}
+
+.icon:hover path{
+    fill: black;
+}
+
+.title{
+
+}
+
+.button{
+    display: block;
+    width: 190px;
+    height: 40px;
+    border: 1px solid purple;
+    text-align: center;
+    line-height: 40px;
+    color: purple;
+    font-size: 20px;
+    margin-top: 16px;
+    transition: background-color 1s;
+    transition: all 2s;
+}
+
+.button:hover{
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 100px;
+}
+
+.drive{
+    margin-top: 100px;
+}
+
+.drive:hover .car{
+    margin-left: 1100px;
+}
+
+.car{
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(114, 0, 72);
+    text-align: center;
+    transition: margin 3s;
+    margin-top: 20px;
+}
+
+.car-1{
+    transition-timing-function: ease;
+}
+
+.car-2{
+    transition-timing-function: ease-in;
+}
+
+.car-3{
+    transition-timing-function: ease-out;
+}
+
+.car-4{
+    transition-timing-function: ease-in-out;
+}
+
+.car-5{
+    
+}

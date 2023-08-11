@@ -1,0 +1,49 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+/* первый по классу при наведении*/
+.my_block:first-child:hover{
+    background-color: azure;
+}
+
+/* последний по типу при нажимании*/
+a:last-of-type:active{
+    background-color: aquamarine;
+    border-right: 1px solid orange;
+    margin-right: 20px;
+}
+
+/* класс при нажимании */
+.my_block:active{
+    background-color: orange;
+}
+
+
+/* Добавляем контент после блока */
+.my_block::after{
+    content: "Привет";
+}
+
+/* Должно окрашивать часть после блока!!! не работает!!!! */
+.my_block::after:active {
+    background-color: rgb(255, 140, 0);
+}
+
+/* Добавляем контент после блока только при наведении*/
+.my_block:hover::after{
+    content: "<<<";
+}
+
+.my_block:hover::before{
+    content: ">>>";
+}
+
+.my_block:hover .child{
+    background-color: aquamarine;
+}
+
+.icon:hover path{
+    fill: black;
+}
